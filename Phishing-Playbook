@@ -1,0 +1,24 @@
+# Phishing Attack Incident Response Playbook
+
+## 1. Preparation
+- Educate employees on identifying phishing emails.
+- Ensure email filtering and anti-phishing tools are active. 
+
+## 2. Detection & Analysis
+- Monitor email alerts for suspicious attachments or links.
+- Analyze the email headers for anomalies.
+- Use SIEM tools (e.g., Splunk) to check for any unusual login attempts.
+
+## 3. Containment
+- Block the sender's email address.
+- Quarantine the affected email and any similar messages.
+- Inform the affected user and reset their credentials.
+
+## 4. Eradication & Recovery
+- Remove any malicious software or links from affected systems.
+- Conduct a full system scan using antivirus tools.
+- Restore compromised data from backups if necessary.
+
+## 5. Lessons Learned
+- Remove the incident and update security awareness training. 
+- Implement additional email security measures if needed. 
