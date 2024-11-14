@@ -1,0 +1,2 @@
+index=main sourcetype="network_logs" | timechart count by source_ip
+Analysis: This query visualizes traffic by source IP. A sudden spike in requests from a single IP could indicate a DDoS attack. 
